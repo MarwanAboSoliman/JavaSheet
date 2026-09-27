@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class qutiontReminder {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Main {
 
 
 
-// public class Main {
+// public class qutiontReminder {
 //     public static void main(String[] args) {
 
 //         int num1 = Integer.parseInt(args[0]);

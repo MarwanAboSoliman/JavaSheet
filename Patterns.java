@@ -1,4 +1,4 @@
-public class Main {
+public class Patterns {
     public static void main(String[] args) {
 
         for (char letter = 'A'; letter <= 'E'; letter++) {
@@ -13,7 +13,7 @@ public class Main {
 }
 
 
-// public class Main {
+// public class Patterns {
 //     public static void main(String[] args) {
 
 //         for (int i = 1; i <= 5; i++) {

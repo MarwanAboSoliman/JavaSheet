@@ -1,4 +1,4 @@
-public class Main {
+public class power {
     public static void main(String[] args) {
 
         int num1 = Integer.parseInt(args[0]);
