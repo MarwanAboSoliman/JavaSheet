@@ -1,13 +1,22 @@
-public class power {
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
 
-        int num1 = Integer.parseInt(args[0]);
-        int num2 = Integer.parseInt(args[1]);
+        Scanner input = new Scanner(System.in);
 
-        int quotient = num1 / num2;
-        int remainder = num1 % num2;
+        System.out.print("Enter base: ");
+        int base = input.nextInt();
 
-        System.out.println("Quotient = " + quotient);
-        System.out.println("Remainder = " + remainder);
+        System.out.print("Enter exponent: ");
+        int exponent = input.nextInt();
+
+        int result = 1;
+
+        for (int i = 1; i <= exponent; i++) {
+            result = result * base;
+        }
+
+        System.out.println("Result = " + result);
     }
 }
